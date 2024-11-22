@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fcfcda;
+
+}
+
+header {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    justify-content: space-between;
+    width: 5%;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #142157, #362c61);
+    margin: 0;
+    overflow: hidden;
+}
+
+body>div{
+    width: 80%;
+}
+
+h1 {
+    color: #fcfcda;
+    font-family: League Spartan, sans-serif;
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+h3 {
+    color: #fcfcda;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    transform: translate(-50%, -90%);
+    top: 90%;
+    left: 50%;
+}
+
+svg {
+    opacity: 1;
+    fill: none;
+    stroke: #fcfcda;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    display: block;
+}
+
+img {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 2em;
+}
+
+header button {
+    background-color: transparent;
+    border: 0;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+li{
+    text-align: center;
+    width: fit-content;
+}
+
+li>div{
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+}
+
+.lightMode {
+    background: #DCDCDC;
+  }
+  
+  .lightMode h1{
+    color: black;
+  }
+
+  .lightMode h2{
+    color: black;
+  }
+
+  .lightMode h3{
+    color: black;
+  }
+
+  .lightMode svg{
+    fill: none;
+    stroke: black;
+}
+
+.icone {
+    width: fit-content;
+    height: fit-content;
+}
+
+.icone img {
+    width: 35px;
+    height: 45px;
+}
+
+
+#html-logo {
+    width: 15em;
+    height: 10em;
+}
+
+#css-logo {
+    width: 10em;
+    height: 10em;
+}
+
+#csharp-logo {
+    width: 10em;
+    height: 10em;
+}
+
+#python-logo {
+    width: 10em;
+    height: 10em;
+}
+
+#mysql-logo {
+    width: 10em;
+    height: 10em;
+}

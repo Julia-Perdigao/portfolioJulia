@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=League+Spartan:wght@100..900&family=Luckiest+Guy&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fcfcda;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+    justify-content: space-between;
+    width: 5%;
+    align-items: center;
+}
+
+header button {
+    background-color: transparent;
+    border: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    padding-left: 36px;
+    margin-left: 12em;
+    background: linear-gradient(to bottom, #142157, #362c61);
+    overflow: hidden;
+}
+
+canvas {
+    background-color: transparent !important;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+svg {
+    opacity: 1;
+    fill: none;
+    stroke: #fcfcda;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    display: block;
+    background-color: transparent;
+}
+
+body>div {
+    margin: auto 0;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+}
+
+ul {
+    list-style: none;
+    color: #fcfcda;
+    font-family: League Spartan, sans-serif;
+    margin-top: auto 0;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li h1 {
+    color: #fcfcda;
+    font-family: League Spartan, sans-serif;
+    font-weight: bold;
+    font-size: 3.5em;
+    text-align: left;
+    list-style: none;
+    transition: .3s;
+}
+
+h3 {
+    color: #fcfcda;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    transform: translate(-50%, -90%);
+    top: 90%;
+    left: 50%;
+}
+
+.icone {
+    width: fit-content;
+    height: fit-content;
+}
+
+.icone img {
+    width: 35px;
+    height: 45px;
+}
+
+
+li h1:hover {
+    transform: scale(1.1);
+}
+
+.lightMode {
+    background: #DCDCDC;
+}
+
+.lightMode h1{
+    color: black;
+  }
+  
+  .lightMode h2{
+      color: black;
+    }
+    
+    .lightMode h3{
+        color: black;
+    }
+    
+    .lightMode svg{
+        fill: none;
+        stroke: black;
+    }
+
+    .lightMode h1{
+        color: black;
+    }
+    
+    .icone-img {
+        margin-right: 10px; 
+    }
+    
+    .icone-img img {
+        width: 6em; 
+        height: 6em; 
+        object-fit: contain; 
+    }
+
+#email-icone img{
+    width: 5em;
+    height: 4em;
+    object-fit: contain;
+}
+
+#github-icone img{
+    width: 5em;
+    height: 3em;
+    object-fit: contain; 
+}
+
+#linkedin-icone img{
+    width: 5em;
+    height: 5em;
+    object-fit: contain;
+}
+
+
+    #azulzinho {
+        width: 18em;
+        height: 20em;
+        background-color: #387eb8;
+        position: absolute;
+        top: 37%;
+        left: 18em;
+        display: block;
+        filter: blur(90px);
+        z-index: -1;
+        filter: opacity(1), blur(1);
+        background: linear-gradient(135deg, #3bf8a0, #9afdfd);
+    }
