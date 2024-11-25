@@ -83,11 +83,11 @@ ul li {
     padding-top: 1em;
 }
 
-main{
+main {
     display: flex;
 }
 
-main>div{
+main>div {
     margin: auto 0;
 }
 
@@ -103,12 +103,59 @@ main>div{
     background-size: cover;
 }
 
-li{
+li {
     transition: .3s;
 }
 
-li h2:hover{
+li h2:hover {
     transform: scale(1.1);
     transition: .3s;
 }
 
+svg {
+    opacity: 1;
+    fill: none;
+    stroke: #fcfcda;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+    display: block;
+}
+
+svg:hover {
+    transform: scale(1.1);
+}
+
+.icone {
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.icone img {
+    width: 35px;
+    height: 45px;
+}
+
+
+.lightMode {
+    background: #DCDCDC;
+}
+
+.lightMode h1 {
+    color: black;
+}
+
+.lightMode h2 {
+    color: black;
+}
+
+.lightMode h3 {
+    color: black;
+}
+
+.lightMode svg {
+    fill: none;
+    stroke: black;
+}
