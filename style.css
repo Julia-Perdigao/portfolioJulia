@@ -62,7 +62,7 @@ h1 {
 h2 {
     color: #fcfcda;
     font-family: League Spartan, sans-serif;
-    font-size: 2.5em;
+    font-size: 1.5em;
     text-align: center;
     font-size: 30px;
     margin-top: .5em;
@@ -96,6 +96,7 @@ h3 {
 .icone {
     width: fit-content;
     height: fit-content;
+
     
 }
 
@@ -154,7 +155,9 @@ svg:hover {
     stroke: black;
 }
 
-  #modo-alternar svg{
-    background-position: 50%;
-  }
+.lightMode #modo-alternar svg path{
+  transform: translateY(17px);
+}
+
+
 

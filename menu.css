@@ -57,6 +57,10 @@ svg {
     background-color: transparent;
 }
 
+svg:hover {
+    transform: scale(1.1);
+}
+
 body>div {
     margin: auto 0;
     display: block;
@@ -127,7 +131,11 @@ li h1:hover {
     background: #DCDCDC;
   }
   
-  .lightMode h1{
+.lightMode li::marker{
+    color: black;
+}
+
+  .lightMode a{
     color: black;
   }
 
@@ -143,3 +151,7 @@ li h1:hover {
     fill: none;
     stroke: black;
 }
+
+#botao-menu svg{
+    transform: rotate(45deg);
+  }

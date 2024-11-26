@@ -159,3 +159,7 @@ svg:hover {
     fill: none;
     stroke: black;
 }
+
+.lightMode ul li{
+    border: 1px black;
+}
